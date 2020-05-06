@@ -1,0 +1,28 @@
+@tailwind base;
+
+a {
+    @apply underline text-blue-700;
+}
+nav a {
+    @apply text-white;
+}
+
+h2 {
+    @apply font-bold block pb-3 mb-3 text-3xl;
+}
+h3 {
+    @apply font-bold block mb-3 text-lg;
+}
+p {
+    @apply my-2;
+}
+section p:first-of-type {
+    @apply mt-0;
+}
+section p:last-of-type {
+    @apply mb-0;
+}
+
+@tailwind components;
+
+@tailwind utilities;
